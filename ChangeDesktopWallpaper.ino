@@ -29,7 +29,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
   
-  DigiKeyboard.print("Invoke-WebRequest -Uri \"http://www.3d-wallpapers.info/wp-content/uploads/3d-wallpaper-nature.jpg\" -OutFile \"C:\\photo.png\"");
+  DigiKeyboard.print("Invoke-WebRequest -Uri \"https://149367133.v2.pressablecdn.com/wp-content/uploads/2021/02/rick-astley-never-gonna-give-you-up-4k.jpg\" -OutFile \"C:\\photo.png\"");
   DigiKeyboard.delay(100);
   SetLightOn();
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
